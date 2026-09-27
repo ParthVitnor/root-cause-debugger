@@ -64,7 +64,7 @@ Once installed, invoke the skill when debugging:
 
 Then describe your problem:
 - *"Test `test_user_login` fails intermittently with a timeout"*
-- *"Production error spike: 500s on `/api/checkout` since deploy abc123"*
+- *"error spike: 500s on `/api/checkout` since deploy abc123"*
 - *"Getting this stack trace when I run `npm test`"*
 
 The skill walks you through a 5-stage workflow, running helper scripts to collect evidence, bisect culprits, and scan for quality issues.
@@ -80,7 +80,7 @@ The fastest-looking fix is usually a guess dressed up as a fix. It patches the s
 This applies to:
 - A single broken function
 - A failing test
-- A full production outage
+- A full outage
 - Any language or stack
 
 ---
